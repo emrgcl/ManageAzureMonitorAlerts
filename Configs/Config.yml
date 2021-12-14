@@ -1,0 +1,12 @@
+# each Subscription should have its own SubscriptionID.Yml
+Configuration:
+    RootFolder: c:\temp\
+    Tenants:
+    - TenantID: yyyy 
+      SubscriptionID:
+      - xxx
+      - zzz
+    - TenantID: tttt
+      SubscriptionID:
+      - aaa
+      - bbb  

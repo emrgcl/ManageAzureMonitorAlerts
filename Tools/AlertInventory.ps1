@@ -14,7 +14,6 @@ $Severityhash = @{
     3 = 'Informational'
     4 = 'Verbose'
 
-
 }
 
 Foreach ($TenantID in $TenantInfo.Keys) {
